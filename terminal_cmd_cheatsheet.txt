@@ -1,0 +1,63 @@
+cd - change directory (folder)
+mkdir - make directory (folder)
+dir / ls(mac) - list all of the contents of the current directory
+.. - parent directory (moving backward from current directory)
+. - current directory
+&& - AND operator - run 2 commands in one line
+ls: list directory
+
+~~~~~~~~~~~~~~ TO CHECK CURRENT MAC PYTHON VERSION TYPE:
+Marian@macbook-air ~ % pip3 --version 
+	pip 21.2.3 from /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/		pip (python 3.9)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TYPE THIS OUT TO ACCESS a clone of WHAT YOU WANT TO PULL>>>
+
+Marian@macbook-air ~ % git clone https://github.com/MarianZ-ux/github_collab.git 
+Cloning ...
+remote:
+remote:
+remote:
+remote:
+Receiving objects:...
+
+INITIATE COMMITING BRANCH TO FORKED CLONE FROM SOMEONE ELSES GITHUB>>>
+Marian@macbook-air ~ % ls
+-> THEN TYPE >>>
+
+Marian@macbook-air ~ % cd desktop
+Marian@macbook-air desktop % ls
+
+
+-> THEN TYPE >>>
+Marian@macbook-air desktop % cd ctemple_dec2021
+Marian@macbook-air ctemple_dec2021 % mkdir week0
+Marian@macbook-air ctemple_dec2021 % cd week0
+
+->THIS BEGINS THE COPY/PASTE PROCESS>>>
+Marian@macbook-air week0 % code .
+
+Marian@macbook-air week0 % git init
+	Initialized empty Git repository in /Users/Marian/ . . . week0/.git/
+
+Marian@macbook-air week0 % git add .
+
+Marian@macbook-air week0 % git commit -m "first commit"
+	[main (root-commit) 75aee59] first commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 test.py
+
+Marian@macbook-air week0 % git branch
+* main
+
+Marian@macbook-air week0 % git branch -M main 
+
+Marian@macbook-air week0 % git remote add origin [COPY/P FROM YOUR GIHUB] https://github.com/testy-test.git
+
+Marian@macbook-air week0 % git push -u origin main
+	Enumerating objects: 3, done.
+	Counting objects: 100% (3/3), done.
+	Writing objects: 100% (3/3), 229 bytes | 229.00 KiB/s, done.
+	Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+	To https://github.com/MarianZ-ux/testy-test.git
+	 * [new branch]      main -> main
+	Branch 'main' set up to track remote branch 'main' from 'origin'.
