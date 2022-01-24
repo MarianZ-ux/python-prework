@@ -1,2 +1,0 @@
-x = "test"
-print(x)
